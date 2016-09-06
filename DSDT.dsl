@@ -8786,7 +8786,7 @@ DefinitionBlock ("", "DSDT", 2, "_ASUS_", "Notebook", 0x01072009)
 
         Device (SDHB)
         {
-            Name (_ADR, Zero)  // _ADR: Address
+            Name (WADR, Zero)  // _ADR: Address
             Name (_HID, "80860F14" /* Intel Baytrail SDIO/MMC Host Controller */)  // _HID: Hardware ID
             Name (AHID, "INT33BB")
             Name (_CID, "PNP0D40" /* SDA Standard Compliant SD Host Controller */)  // _CID: Compatible ID
